@@ -4,12 +4,8 @@
             "title": "Welcome!",
             "title_menu": "About me",
             "title_long_prefix": "Hello...",
-            "title_long": "I'm **UTHAYAN!**"
+            "title_long": "I'm **uthayan**"
         }
-
-
-
-        
     },
 
     "articles": [
@@ -22,12 +18,11 @@
             },
             "locales": {
                 "en": {}
-                
             },
 
             "items": [
                 {
-                    "value": "koliyanur-ariyalur",
+                    "value": "Koliyanur – Ariyalur",
                     "links": [
                         {"href": null}
                     ],
@@ -51,7 +46,7 @@
                 {
                     "value": "@uthayan45",
                     "links": [
-                        {"href": "https://github.com/ryanbalieiro"}
+                        {"href": "https://github.com/Uthayan45"}
                     ],
                     "icon": {
                         "img": null,
@@ -67,28 +62,26 @@
             "component": "ArticleInfoBlock",
             "config": {},
             "locales": {
-                "en": {"title": "**A little bit** about me..."}
-               
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/svg/logo.svg",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-"en": {"text": "<p>I'm passionate about building innovative digital solutions that empower people.</p><p>With a focus on creating interactive learning platforms, I work with modern web technologies like React, Vite, Next.js, and Django to deliver seamless, real-time experiences.</p><p>My expertise extends across full-stack development, with strong skills in backend technologies like FastAPI and PostgreSQL, ensuring scalable and secure applications.</p><p>I am driven by the desire to bridge skill gaps, particularly in areas like Zoho, and help individuals and businesses unlock their full potential.</p><p>Whether it’s integrating chatbots with platforms like Telegram or building robust community features such as leaderboards and user achievements, I aim to create meaningful, user-friendly products that make a difference.</p>"}
-                    }
-                }
-            ]
+               "en": {
+    "title": "**A little bit** about me..."}
+               },
+"items": [
+    {
+        "icon": {
+            "img": "images/svg/logo.svg",
+            "fa": null,
+            "faColors": {"bg": null, "fill": null}
         },
-              
+        "locales": {
+            "en": {
+                "text": "I'm passionate about building innovative digital solutions that empower people. With a focus on creating interactive learning platforms, I work with modern web technologies like <b>React, Vite, javascript,</b> and <b>node js</b> to deliver seamless, real-time experiences. My expertise extends across full-stack development, with strong skills in backend technologies like FastAPI and PostgreSQL, ensuring scalable and secure applications.\nI am driven by the desire to bridge skill gaps, particularly in areas like Zoho, and help individuals and businesses unlock their full potential. Whether it’s integrating chatbots with platforms like Telegram or building robust community features such as leaderboards and user achievements, I aim to create meaningful, user-friendly products that make a difference."
+            }
+        }
+    }
+]
+        },
 
-               
-                
-       
+        
 
         {
             "id": "interests",
@@ -102,6 +95,22 @@
             },
 
             "items": [
+
+
+                 {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pencil-alt",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "UX design",
+                            "info": "Studying user experience principles."
+                        }
+                    }
+                },
                 {
                     "icon": {
                         "img": null,
@@ -111,44 +120,16 @@
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "Playing guitar",
+                            "title": "Playing kabbadi",
                             "info": "Exploring different genres and improving my skills."
                         }
-                       
+                        
                     }
                 },
 
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-video",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "AI video editing",
-                            "info": "Learning to use AI tools to enhance my videos."
-                        }
-                       
-                    }
-                },
+                
 
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-paint-brush",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Illustration",
-                            "info": "Practicing digital art and exploring new styles."
-                        }
-                      
-                    }
-                },
+               
 
                 {
                     "icon": {
@@ -162,25 +143,10 @@
                             "title": "Investing",
                             "info": "Learning the basics of stocks and personal finance."
                         }
-                       
                     }
                 },
 
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-pencil-alt",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "UX design",
-                            "info": "Studying user experience principles."
-                        }
-                       
-                    }
-                },
+               
 
                 {
                     "icon": {
@@ -194,7 +160,6 @@
                             "title": "Photo editing",
                             "info": "Enhancing photos through creative editing techniques."
                         }
-                       
                     }
                 }
             ]

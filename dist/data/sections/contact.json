@@ -6,8 +6,6 @@
             "title_long": "**Contact** Me"
         }
 
-
-       
     },
 
     "articles": [
@@ -17,7 +15,7 @@
             "config": {},
             "locales": {
                 "en": {"title": "Send me a **message**"}
-                
+               
             },
 
             "items": null
@@ -36,9 +34,9 @@
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+91 9840383086",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:9840383086"}
                     ],
                     "icon": {
                         "img": null,
@@ -52,9 +50,9 @@
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "uthayanu490@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "uthayanu490@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -62,15 +60,15 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
+                        "en": {"title": "E-mail"}
+                        
                     }
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "Uthayan",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/uthayanece"}
                     ],
                     "icon": {
                         "img": null,
@@ -82,25 +80,12 @@
                     }
                 },
 
-                {
-                    "value": "Mark Choi",
-                    "links": [
-                        {"href": "https://facebook.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-facebook",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
+               
 
                 {
-                    "value": "@markchoi",
+                    "value": "@fearless_23.2k",
                     "links": [
-                        {"href": "https://instagram.com"}
+                        {"href": "https://www.instagram.com/mr_fearless_23.2k "}
                     ],
                     "icon": {
                         "img": null,
@@ -110,22 +95,9 @@
                     "locales": {
                         "en": {"title": "Instagram"}
                     }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
-                    }
                 }
+
+                
             ]
         }
     ]

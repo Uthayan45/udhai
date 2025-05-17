@@ -15,90 +15,72 @@
             "config": {},
             "locales": {
                 "en": { "title": "Certifications" }
-                
+               
             },
 
             "items": [
                 {
                     "icon": {
-                        "img": null,
+                       "img": "images/pictures/now.png",
                         "fa": "fa-solid fa-life-ring",
                         "faColors": {"bg": "#326CE5", "fill": "#EEE"}
                     },
                     "dates": {
-                        "start": "12/01/2020",
+                        "start": "12/01/2025",
                         "end": null
                     },
                     "links": [
-                        { "string": "see_certification", "href": "https://www.linuxfoundation.org/" }
+                        { "string": "see_certification", "href": "https://drive.google.com/file/d/1zmHbKyWSnG5QKwjmeej-EC_MwlpS21Th/view?usp=drivesdk" }
                     ],
                     "locales": {
                         "en": {
-                            "title": "The **Linux Foundation**",
-                            "text": "Certified Kubernetes Administrator (CKA)"
+                            "title": "**ServiceNow**",
+                            "text": "Certified Systems Administrator"
                         }
                     }
                 },
                 {
                     "icon": {
-                        "img": null,
+                         "img": "images/pictures/zoho.png",
                         "fa": "fa-brands fa-aws",
                         "faColors": {"bg": "#FFD700", "fill": "#111"}
                     },
                     "dates": {
-                        "start": "05/05/2021",
+                        "start": "08/05/2024",
                         "end": null
                     },
                     "links": [
-                        { "string": "see_certification", "href": "https://www.aws.com/" }
+                        { "string": "see_certification", "href": "https://drive.google.com/file/d/1ygMo1TAC2WrS4iyGGxepN1uoMvGM9GXe/view?usp=drivesdk " }
                     ],
                     "locales": {
                         "en": {
-                            "title": "**Amazon** Web Services",
-                            "text": "AWS Certified Solutions Architect – Associate"
+                            "title": "**ZOHO CREATOR**",
+                            "text": "Certified Zoho Creator Developer"
                         }
                     }
                 },
                 {
                     "icon": {
-                        "img": null,
+                         "img": "images/pictures/intern.png",
                         "fa": "fa-brands fa-java",
                         "faColors": {"bg": "#007396", "fill": "#EEE"}
                     },
                     "dates": {
-                        "start": "05/05/2022",
+                        "start": "09/17/2024",
                         "end": null
                     },
                     "links": [
-                        { "string": "see_certification", "href": "https://www.oracle.com/" }
+                        { "string": "see_certification", "href": "https://drive.google.com/file/d/1zcgN80ifgOnsXrlRvQMvU2TFooNwHnj-/view?usp=drivesdk " }
                     ],
+                    
                     "locales": {
                         "en": {
-                            "title": "**Oracle**",
-                            "text": "Certified Java Developer"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "08/15/2023",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.mongodb.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**MongoDB** University",
-                            "text": "MongoDB Certified Developer"
+                            "title": "** Internshala**",
+                            "text": "Certified web Developer"
                         }
                     }
                 }
+               
             ]
         },
 
@@ -108,28 +90,27 @@
             "config": {},
             "locales": {
                 "en": { "title": "Awards" }
-                
+               
             },
 
             "items": [
                 {
                     "dates": {
-                        "start": "09/01/2019",
+                        "start": "09/01/2025",
                         "end": null
                     },
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "**Best Final Year Project** – Backend Optimization",
-                            "info": "MIT",
-                            "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
+                            "title": "**A national** level student confluence",
+                            "info": "Ideathon",
+                            "text": "title."
                         }
-                        
                     }
                 },
                 {
                     "dates": {
-                        "start": "05/01/2020",
+                        "start": "11/01/2023",
                         "end": null
                     },
                     "links": [
@@ -137,12 +118,27 @@
                     ],
                     "locales": {
                         "en": {
-                            "title": "**Top Contributor** – Open Source Backend Project",
-                            "info": "GitHub",
-                            "text": "Awarded for contributing to an open-source backend framework that improved scalability and reduced latency."
+                            "title": "**Forsch** national level techno cultural fest",
+                            "info": "paper presentation",
+                            "text": "title"
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "11/01/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "** CISO** Networking Academy",
+                            "info": "course completion",
+                            "text": "Networking devices and initial configuration"
                         }
                     }
                 }
+               
             ]
         }
     ]

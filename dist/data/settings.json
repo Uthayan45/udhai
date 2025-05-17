@@ -5,19 +5,19 @@
 
     "preloader": {
         "enabled": true,
-        "title": "React <b>Portfolio</b>",
-        "subtitle": "by Ryan Balieiro"
+        "title": "<b>Portfolio</b>",
+        "subtitle": "by uthayan"
     },
 
     "profile": {
-        "name": "Mark Choi",
-        "stylizedName": "<strong>Mark **Choi**</strong>",
+        "name": "UTHAYAN U",
+        "stylizedName": "<strong>UTHAYAN **U**</strong>",
         "logoUrl": "images/svg/logo.svg",
         "profilePictureUrl": "images/pictures/uthayan490.jpg",
 
         "locales": {
             "en": {"role": "Web Developer"}
-           
+          
         }
     },
 
@@ -26,8 +26,7 @@
         "available": true,
 
         "locales": {
-            "en": {"message": "Available for freelance!"}
-            
+            "en": {"message": "Available!"}
         }
     },
 
@@ -52,8 +51,6 @@
             "flagUrl": "images/flags/en.png",
             "default": true
         }
-
-        
     ],
 
     "emailjs": {
