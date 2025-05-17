@@ -1,0 +1,61 @@
+{
+    "version": "1.0.0",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": true,
+
+    "preloader": {
+        "enabled": true,
+        "title": "<b>Portfolio</b>",
+        "subtitle": "by uthayan"
+    },
+
+    "profile": {
+        "name": "UTHAYAN U",
+        "stylizedName": "<strong>UTHAYAN **U**</strong>",
+        "logoUrl": "images/svg/logo.svg",
+        "profilePictureUrl": "images/pictures/uthayan490.jpg",
+
+        "locales": {
+            "en": {"role": "Web Developer"}
+          
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "Available!"}
+        }
+    },
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        }
+    ],
+
+    "emailjs": {
+        "publicKey": "tzObcsmOwHvPy6Rhp",
+        "serviceId": "service_4h8g7vb",
+        "templateId": "template_seyjkzn"
+    }
+}

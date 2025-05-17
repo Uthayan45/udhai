@@ -1,0 +1,62 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"}
+                       
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"}
+                    }
+                }
+               
+            ],
+
+            "items": [
+
+               
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/udhai.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://ecom-xi-pink.vercel.app/"}
+                    ],
+
+                    "locales": {
+                        "en": {
+                            "title": "Udhailuxe E-commerce Platform",
+                            "text": "An e-commerce platform that connects buyers and sellers, offering a wide range of products and services. The platform features user-friendly navigation, secure payment options, and personalized recommendations to enhance the shopping experience.",
+                           "tags": ["React+vite","Node js", "REST API"]
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}

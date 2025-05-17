@@ -1,0 +1,80 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Project** Experience"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-7.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/01/2023",
+                        "end": "06/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Detection and Tracking** of Drug Trafficking in Social Media",
+                            "info": "Backend Developer",
+"text": "This project detects and tracks drug trafficking on social media using AI, NLP, and image recognition. It identifies suspicious content, maps activity patterns, and alerts authorities in real time. The system enhances public safety while ensuring ethical data use and supporting law enforcement with actionable insights.",
+                            "tags": ["React+vite","Node js","Express","SQL","NLP"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2022",
+                        "end": "12/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Multi-Vendor** Event and Venue Hub",
+                            "info": "Frontend Developer",
+                            "text": "A centralized platform that connects event organizers with multiple vendors and venues, allowing easy booking, service comparison, and collaboration to streamline event planning, improve coordination, and enhance user experience. ",
+                            "tags": ["React+vite","JavaScript"]
+                            
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/udhai.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "12/01/2024",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Udhailuxe** E-commerce Platform",
+                            "info": "Full Stack Developer",
+                            "text": "An e-commerce platform that connects buyers and sellers, offering a wide range of products and services. The platform features user-friendly navigation, secure payment options, and personalized recommendations to enhance the shopping experience.",
+                            "tags": ["React+vite","Node js","Express","SQL", "REST API", "Vercel", "Tailwind CSS"]
+                        }
+                    }
+                }
+               
+            ]
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **uthayan**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {}
+            },
+
+            "items": [
+                {
+                    "value": "Koliyanur – Ariyalur",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "uthayanu490@gmail.com",
+                    "links": [
+                        {"href": "mailto:uthayanu490@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@uthayan45",
+                    "links": [
+                        {"href": "https://github.com/Uthayan45"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+               "en": {
+    "title": "**A little bit** about me..."}
+               },
+"items": [
+    {
+        "icon": {
+            "img": "images/svg/logo.svg",
+            "fa": null,
+            "faColors": {"bg": null, "fill": null}
+        },
+        "locales": {
+            "en": {
+                "text": "I'm passionate about building innovative digital solutions that empower people. With a focus on creating interactive learning platforms, I work with modern web technologies like <b>React, Vite, javascript,</b> and <b>node js</b> to deliver seamless, real-time experiences. My expertise extends across full-stack development, with strong skills in backend technologies like FastAPI and PostgreSQL, ensuring scalable and secure applications.\nI am driven by the desire to bridge skill gaps, particularly in areas like Zoho, and help individuals and businesses unlock their full potential. Whether it’s integrating chatbots with platforms like Telegram or building robust community features such as leaderboards and user achievements, I aim to create meaningful, user-friendly products that make a difference."
+            }
+        }
+    }
+]
+        },
+
+        
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"}
+                
+            },
+
+            "items": [
+
+
+                 {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pencil-alt",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "UX design",
+                            "info": "Studying user experience principles."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Playing kabbadi",
+                            "info": "Exploring different genres and improving my skills."
+                        }
+                        
+                    }
+                },
+
+                
+
+               
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-chart-line",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Investing",
+                            "info": "Learning the basics of stocks and personal finance."
+                        }
+                    }
+                },
+
+               
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-camera-retro",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Photo editing",
+                            "info": "Enhancing photos through creative editing techniques."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,289 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        }
+
+       
+    },
+
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-table-columns",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Website** development",
+                            "text": "I can bring your best ideas into life!"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Database** management",
+                            "text": "I can handle your data effectively!"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-mobile-screen-button",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**App** creation",
+                            "text": "I can make creative and innovative apps!"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-window-restore",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "REST **APIs**",
+                            "text": "I can build API services!"
+                        }
+                    }
+                }
+
+               
+            ]
+
+        },
+
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Backend"}
+            },
+
+            "items": [
+                 {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-java",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "03/10/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "info": null
+                        }
+                    }
+                },
+
+
+
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node-js",
+                        "faColors": {"bg": "#339933", "fill": "#EEE"}
+                    },
+                    "value": 70,
+                    "dates": {
+                        "start": "01/15/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "info": null
+                        }
+                    }
+                },
+               
+               
+               
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "10/10/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "info": null
+                        }
+                    }
+                }
+               
+                
+               
+                
+                
+            ]
+        },
+
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Frontend"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "09/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3",
+                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                    },
+                    "value": 65,
+                    "dates": {
+                        "start": "01/15/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS3",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "03/10/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "06/20/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React+vite",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": { "title": "Languages" }
+                
+            },
+
+            "items": [
+
+
+
+                {
+                    "icon": {
+                        "img": "images/flags/india.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "tamil",
+                            "info": "Native speaker with excellent communication and writing skills.",
+                            "tags": ["Native"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/india.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "info": "Fluent in both spoken and written French; confident in professional communication.",
+                            "tags": ["Fluent"]
+                        }
+                    }
+                }
+
+                
+
+               
+               
+            ]
+        }
+    ]
+}

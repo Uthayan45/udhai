@@ -1,0 +1,104 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        }
+
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"}
+               
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."}
+               
+            },
+
+            "items": [
+                {
+                    "value": "+91 9840383086",
+                    "links": [
+                        {"href": "tel:9840383086"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"}
+                       
+                    }
+                },
+
+                {
+                    "value": "uthayanu490@gmail.com",
+                    "links": [
+                        {"href": "uthayanu490@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"}
+                        
+                    }
+                },
+
+                {
+                    "value": "Uthayan",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/uthayanece"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"}
+                    }
+                },
+
+               
+
+                {
+                    "value": "@fearless_23.2k",
+                    "links": [
+                        {"href": "https://www.instagram.com/mr_fearless_23.2k "}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"}
+                    }
+                }
+
+                
+            ]
+        }
+    ]
+}
