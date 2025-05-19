@@ -10,8 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-     "vite": "^5.0.0",
-    "@vitejs/plugin-react": "^4.3.1",
     "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome-free": "^6.7.2",
     "bootstrap": "^5.3.6",
@@ -29,7 +27,7 @@
     "@eslint/js": "^9.9.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.9.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
@@ -37,8 +35,5 @@
     "globals": "^15.9.0",
     "sass-embedded": "^1.78.0",
     "vite": "^6.3.5"
-  },
-  "overrides": {
-  "vite": "^5.0.0"
-}
+  }
 }
