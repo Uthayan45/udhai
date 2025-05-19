@@ -11,6 +11,18 @@ export default defineConfig({
         silenceDeprecations: ['mixed-decls'],
         
       },
+
     },
   },
+ build: {
+    outDir: 'docs',
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: './index.html' // Ensure correct entry point
+      }
+    }
+  },
+
+
 })
