@@ -14,15 +14,18 @@ export default defineConfig({
 
     },
   },
- build: {
+  build: {
     outDir: 'docs',
     emptyOutDir: true,
     rollupOptions: {
-      input: {
-        main: './index.html' // Ensure correct entry point
+      input: './index.html',
+      output: {
+        // Ensure all files have .js extension
+        entryFileNames: `assets/[name].[hash].js`,
+        chunkFileNames: `assets/[name].[hash].js`,
+        assetFileNames: `assets/[name].[hash].[ext]`
       }
     }
   },
-
 
 })
